@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Uber Project</title>
+</head>
+
+<body>
+    <div class="projectBriefDiv">
+        <h1>Uber Data Engineering Project</h1>
+        <h4>Built By: Abdulaziz Alharbi</h4>
+    </div>
+    <div class="reportDiv">
+        <h4 style=" font-family: 'Ubuntu', sans-serif;">This Visulization Report Was Built Using Google Looker Studio
+        </h4>
+        <iframe width="600" height="450"
+            src="https://lookerstudio.google.com/embed/reporting/64281d8d-2aa8-4cad-9d70-d25ff68e2a30/page/YdkTD"
+            frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="imageDiv">
+        <h4 style="color: white;">This Project Diagram Was Built Programmatically Using Diagrams.py Library</h4>
+        <img src="{{url_for('static', filename='uber_project_pipeline_-_built_by:_abdulaziz_alharbi.png')}}"
+            alt="Project Diagram" style="width: 80%; height: 500px;">
+    </div>
+    <div class="imageDiv">
+        <h4 style="color: white;">This WareHouse Data Modeling Diagram Was Built Using Lucid</h4>
+        <img src="{{url_for('static', filename='Warehouse_DataModeling.png')}}" alt="GCP Data Warehouse Design"
+            style="width: 80%; height: 500px;">
+    </div>
+</body>
+
+</html>
+
+<style>
+    body {
+        text-align: center;
+    }
+
+    .projectBriefDiv {
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        width: 50%;
+        margin-left: 25%;
+        padding: 5px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        opacity: 0.9;
+        box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+            0 12.5px 10px rgba(0, 0, 0, 0.06),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+            0 100px 80px rgba(0, 0, 0, 0.12);
+
+    }
+
+    .reportDiv {
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        width: 50%;
+        margin-left: 15%;
+        padding: 5px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        opacity: 0.9;
+        height: 800px;
+        width: 70%;
+        box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+            0 12.5px 10px rgba(0, 0, 0, 0.06),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+            0 100px 80px rgba(0, 0, 0, 0.12);
+        padding-bottom: 30px;
+    }
+
+    iframe {
+        width: 80%;
+        height: 80%;
+    }
+
+    .imageDiv {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: black;
+        border-radius: 20px;
+        box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+            0 12.5px 10px rgba(0, 0, 0, 0.06),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+            0 100px 80px rgba(0, 0, 0, 0.12);
+        padding: 10px;
+        margin: 20px;
+        width: 70%;
+        height: 600px;
+        margin-left: 15%;
+    }
+
+    img {
+        object-fit: contain;
+        max-width: 100%;
+        height: auto;
+    }
+</style>
